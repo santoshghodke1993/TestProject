@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 105.371 sec <<< FAILURE! - in TestSuite
+checkTitle(orangehrm.qa.testScripts.loginPageTest)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [OrangeHRm] but found [OrangeHRM]
+	at orangehrm.qa.testScripts.loginPageTest.checkTitle(loginPageTest.java:20)
+
