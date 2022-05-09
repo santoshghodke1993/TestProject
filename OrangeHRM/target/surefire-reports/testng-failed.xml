@@ -10,6 +10,21 @@
           <include name="checkTitle"/>
         </methods>
       </class> <!-- orangehrm.qa.testScripts.loginPageTest -->
+      <class name="orangehrm.qa.testScripts.AssignLeaveTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="CheckAssignLeave"/>
+        </methods>
+      </class> <!-- orangehrm.qa.testScripts.AssignLeaveTest -->
+      <class name="orangehrm.qa.testScripts.dashBoardTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="leaveListLogo"/>
+          <include name="setup"/>
+          <include name="checkAssignLeaveLogo"/>
+        </methods>
+      </class> <!-- orangehrm.qa.testScripts.dashBoardTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

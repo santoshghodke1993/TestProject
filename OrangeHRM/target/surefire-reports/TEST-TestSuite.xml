@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="105.371" tests="7" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="150.847" tests="7" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="TestOrangeHRM"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/22/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/26/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -28,8 +28,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="TestOrangeHRM"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/22/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#22"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/26/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#26"/>
     <property name="sun.boot.library.path" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_232"/>
@@ -39,7 +39,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="built-in"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="22"/>
+    <property name="BUILD_ID" value="26"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,10 +54,10 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="OJDKBUILD_JAVA_HOME" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/22/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/26/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/22/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/TestOrangeHRM/26/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.232-b09"/>
     <property name="__PSLockDownPolicy" value="0"/>
@@ -77,7 +77,7 @@
     <property name="POM_GROUPID" value="SeleniumDemo"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-TestOrangeHRM-22"/>
+    <property name="BUILD_TAG" value="jenkins-TestOrangeHRM-26"/>
     <property name="JENKINS_SERVER_COOKIE" value="d50b46b9e11ddb76"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -92,7 +92,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="maven.home" value="C:\MAVEN\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\Users\SA20328498\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\MAVEN\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\MAVEN\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\MAVEN\apache-maven-3.6.3 C:\Users\SA20328498\.jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\Users\SA20328498\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\SA20328498\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53517"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\MAVEN\apache-maven-3.6.3 C:\Users\SA20328498\.jenkins\war\WEB-INF\lib\remoting-4.13.jar C:\Users\SA20328498\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\SA20328498\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59484"/>
     <property name="Path" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\bin;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\jre\bin;C:\apache-maven-3.6.3-bin (1)\apache-maven-3.6.3\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -108,19 +108,19 @@
     <property name="HUDSON_HOME" value="C:\Users\SA20328498\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\MAVEN\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/TestOrangeHRM/22/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/TestOrangeHRM/26/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.232-1\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\SA20328498\eclipse-workspace\OrangeHRM"/>
+    <property name="user.dir" value="C:\Users\SA20328498\git\TestProject\OrangeHRM"/>
     <property name="JOB_URL" value="http://localhost:8080/job/TestOrangeHRM/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\MAVEN\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="22"/>
+    <property name="BUILD_NUMBER" value="26"/>
     <property name="BASE" value="C:\Users\SA20328498\.jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8c01"/>
@@ -138,29 +138,108 @@
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="CheckAssignLeave" classname="orangehrm.qa.testScripts.AssignLeaveTest" time="8.22"/>
-  <testcase name="checkAssignLeaveLogo" classname="orangehrm.qa.testScripts.dashBoardTest" time="25.883"/>
-  <testcase name="leaveListLogo" classname="orangehrm.qa.testScripts.dashBoardTest" time="4.735"/>
-  <testcase name="checkLogin" classname="orangehrm.qa.testScripts.loginPageTest" time="4.5"/>
-  <testcase name="checkLogo" classname="orangehrm.qa.testScripts.loginPageTest" time="0.042"/>
-  <testcase name="checkTitle" classname="orangehrm.qa.testScripts.loginPageTest" time="0.024">
+  <testcase name="CheckAssignLeave" classname="orangehrm.qa.testScripts.AssignLeaveTest" time="12.851">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Assign Leave&apos;]&quot;}&#10;  (Session info: chrome=101.0.4951.54)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;APL-5CD102GWVV&apos;, ip: &apos;10.218.50.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2f5a323b5414fd037a79619f84a1a155, findElement {using=xpath, value=//span[text()=&apos;Assign Leave&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:59558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59558/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2f5a323b5414fd037a79619f84a1a155" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Assign Leave']"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'APL-5CD102GWVV', ip: '10.218.50.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f5a323b5414fd037a79619f84a1a155, findElement {using=xpath, value=//span[text()='Assign Leave']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:59558}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59558/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f5a323b5414fd037a79619f84a1a155
+	at orangehrm.qa.testScripts.AssignLeaveTest.CheckAssignLeave(AssignLeaveTest.java:17)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 60755
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1652085916.604][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+May 09, 2022 2:15:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 2:15:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 2:15:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="checkAssignLeaveLogo" classname="orangehrm.qa.testScripts.dashBoardTest" time="12.524">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;quickLaunge&apos;]//a//img&quot;}&#10;  (Session info: chrome=101.0.4951.54)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;APL-5CD102GWVV&apos;, ip: &apos;10.218.50.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b60081371796c153749dc93347f3fe30, findElement {using=xpath, value=//div[@class=&apos;quickLaunge&apos;]//a//img}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:59587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59587/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b60081371796c153749dc93347f3fe30" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='quickLaunge']//a//img"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'APL-5CD102GWVV', ip: '10.218.50.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b60081371796c153749dc93347f3fe30, findElement {using=xpath, value=//div[@class='quickLaunge']//a//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, goog:chromeOptions: {debuggerAddress: localhost:59587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59587/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60081371796c153749dc93347f3fe30
+	at orangehrm.qa.testScripts.dashBoardTest.checkAssignLeaveLogo(dashBoardTest.java:16)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 64185
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1652085947.377][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+May 09, 2022 2:15:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 2:15:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 2:15:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="leaveListLogo" classname="orangehrm.qa.testScripts.dashBoardTest" time="12.479">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Leave List&apos;]//preceding-sibling::img&quot;}&#10;  (Session info: chrome=101.0.4951.54)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.1.3&apos;, revision: &apos;7b1ebf28ef&apos;&#10;System info: host: &apos;APL-5CD102GWVV&apos;, ip: &apos;10.218.50.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_232&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e42af68b26a95ce6b29685e8ddfcfa72, findElement {using=xpath, value=//span[text()=&apos;Leave List&apos;]//preceding-sibling::img}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:59615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59615/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e42af68b26a95ce6b29685e8ddfcfa72" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Leave List']//preceding-sibling::img"}
+  (Session info: chrome=101.0.4951.54)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'APL-5CD102GWVV', ip: '10.218.50.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_232'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e42af68b26a95ce6b29685e8ddfcfa72, findElement {using=xpath, value=//span[text()='Leave List']//preceding-sibling::img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, goog:chromeOptions: {debuggerAddress: localhost:59615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59615/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e42af68b26a95ce6b29685e8ddfcfa72
+	at orangehrm.qa.testScripts.dashBoardTest.leaveListLogo(dashBoardTest.java:24)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 59275
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1652085974.298][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+May 09, 2022 2:16:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 09, 2022 2:16:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 2:16:16 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
+]]></system-err>
+  </testcase>
+  <testcase name="checkLogin" classname="orangehrm.qa.testScripts.loginPageTest" time="1.701"/>
+  <testcase name="checkLogo" classname="orangehrm.qa.testScripts.loginPageTest" time="0.05"/>
+  <testcase name="checkTitle" classname="orangehrm.qa.testScripts.loginPageTest" time="0.009">
     <failure message="The following asserts failed:&#10;	expected [OrangeHRm] but found [OrangeHRM]" type="java.lang.AssertionError">java.lang.AssertionError: 
 The following asserts failed:
 	expected [OrangeHRm] but found [OrangeHRM]
 	at orangehrm.qa.testScripts.loginPageTest.checkTitle(loginPageTest.java:20)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 52462
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 56445
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1652070059.742][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
-May 09, 2022 9:51:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1652086014.305][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+May 09, 2022 2:16:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-May 09, 2022 9:51:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 09, 2022 2:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
-May 09, 2022 9:51:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 09, 2022 2:16:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
   </testcase>
-  <testcase name="checkURL" classname="orangehrm.qa.testScripts.loginPageTest" time="0.006"/>
+  <testcase name="checkURL" classname="orangehrm.qa.testScripts.loginPageTest" time="0.005"/>
 </testsuite>
