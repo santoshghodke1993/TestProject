@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-
 import orangehrm.qa.base.testBase;
 import orangehrm.qa.util.constant;
+import orangehrm.qa.util.testUtil;
 
 public class AssignLeavePage extends testBase{
 	
@@ -23,8 +23,10 @@ public class AssignLeavePage extends testBase{
 	@FindBy(className = "ui-datepicker-month")
 	WebElement Month;
 	
-	@FindBy(xpath = "//a[text()='2']")
+	@FindBy(xpath = "//a[text()='1']")
 	WebElement Date;
+	//WebElement Date=driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/table/tbody/tr/td/a[contains(text(),"+constant.FROM_DATE+")]"));
+	//WebElement ToDate=driver.findElement(By.xpath("//*[@id='ui-datepicker-div']/table/tbody/tr/td/a[contains(text(),"+constant.TO_DATE+")]"));
 	
 	@FindBy(xpath ="//input[@id='assignleave_txtToDate']")
 	WebElement LeaveToDate;
@@ -52,23 +54,27 @@ public class AssignLeavePage extends testBase{
 	
 	// Select leave type
 	public void selectLeaveType() {
-		Select dropLeave=new Select(LeaveType);
-		dropLeave.selectByVisibleText(constant.LEAVETYPE);
+		testUtil.selectDropDownValue(LeaveType, "visibletext", "US - Vacation");
+		
+		/*Select dropLeave=new Select(LeaveType);
+		dropLeave.selectByVisibleText(constant.LEAVETYPE);*/
 	}
 	
 	// Select Date from datepicker
 	public void SelectFromLeaveDate() {
 		LeaveFromDate.click();
-		Select dropMonth=new Select(Month);
-		dropMonth.selectByIndex(4);
+		/*Select dropMonth=new Select(Month);
+		dropMonth.selectByIndex(4);*/
+		testUtil.selectDropDownValue(Month, "visibletext", constant.FROM_MONTH);
 		Date.click();
 	}
 	
 	// Select Date from datepicker
 	public void SelectToLeaveDate() {
 		LeaveToDate.click();
-		Select dropMonth2=new Select(Month);
-		dropMonth2.selectByIndex(5);
+		/*Select dropMonth2=new Select(Month);
+		dropMonth2.selectByIndex(5);*/
+		testUtil.selectDropDownValue(Month, "visibletext", constant.TO_MONTH);
 		Date.click();
 	}
 	

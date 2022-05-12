@@ -25,5 +25,11 @@ public class constant extends testBase{
 	 public static String OPTIONALMAIL=prop.getProperty("OptionalMail");
 	 public static String PASS=prop.getProperty("Password_2");
 	 
-	 
+	 public static String FROM_DATE=prop.getProperty("fromDate");
+	 public static String FROM_MONTH=prop.getProperty("fromMonth");
+	 public static String FROM_YEAR=prop.getProperty("fromYear");
+	 public static String TO_DATE=prop.getProperty("toDate");
+	 public static String TO_MONTH=prop.getProperty("toMonth");
+	 public static String TO_YEAR=prop.getProperty("toYear");
+	
 }
