@@ -2,3 +2,4 @@ orangehrm\qa\testScripts\BaseTest.class
 orangehrm\qa\testScripts\dashBoardTest.class
 orangehrm\qa\testScripts\AssignLeaveTest.class
 orangehrm\qa\testScripts\loginPageTest.class
+orangehrm\qa\testScripts\RecruitmentPageTest.class

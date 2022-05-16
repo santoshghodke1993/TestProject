@@ -10,6 +10,13 @@
           <include name="checkTitle"/>
         </methods>
       </class> <!-- orangehrm.qa.testScripts.loginPageTest -->
+      <class name="orangehrm.qa.testScripts.RecruitmentPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="checkRecruitmentTable"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- orangehrm.qa.testScripts.RecruitmentPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
