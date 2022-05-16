@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import orangehrm.qa.base.testBase;
 import orangehrm.qa.pages.AssignLeavePage;
 import orangehrm.qa.pages.DashboardPage;
+import orangehrm.qa.pages.RecruitmentPage;
 import orangehrm.qa.pages.loginPage;
 
 
@@ -16,6 +17,7 @@ public class BaseTest extends testBase{
 	loginPage loginpage;
 	DashboardPage dashboard;
 	AssignLeavePage assignLeave;
+	RecruitmentPage recruitment;
 	
 	@BeforeMethod
 	public void setup() {
@@ -23,6 +25,7 @@ public class BaseTest extends testBase{
 		loginpage =new loginPage();
 		dashboard=new DashboardPage();
 		assignLeave =new AssignLeavePage();
+		recruitment =new RecruitmentPage();
 	}
 	
 	@AfterMethod
